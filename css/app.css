@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul,
+ol,
+menu {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_bar{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_bar_menu{
+    display: flex;
+    gap: 15px;
+}
+
+.logo{
+    height: 30px;
+    margin: 15px 0;
+}
+
+.selettore_genere{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.selettore_genere_link{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
