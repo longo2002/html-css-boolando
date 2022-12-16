@@ -75,22 +75,34 @@ footer{
 }
 .col{
     display: flex;
-
-}
-
-.scheda_prodotto{
 }
 
 .immagine_prodotto{
-    background-color: grey;
-    height: 450px;
+    height: max-content;
     width: 350px;
 }
 
 .descrizione_prodotto{
-    background-color: red;
-    height: 150px;
+    height: max-content;
     width: 350px;
+}
+
+.marca{
+    font-size: 12px;
+}
+
+.prezziscontati{
+    display: flex;
+    font-size: 13px;
+}
+
+.prezziscontati > li:first-child{
+    color: red;
+    font-weight: bolder;
+}
+
+.prezziscontati > li:last-child{
+    text-decoration: line-through;
 }
 
 .nav_bar_footer{
