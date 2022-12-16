@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+html{
+    font-family: sans-serif;
+}
+
 ul,
 ol,
 menu {
@@ -15,12 +19,19 @@ a {
 	color: currentColor;
 }
 
-html{
-    font-family: sans-serif;
-}
-
 header{
     background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: black;
     display: flex;
     justify-content: center;
 }
@@ -51,4 +62,26 @@ header{
     color: white;
     display: flex;
     justify-content: flex-start;
+}
+
+.scheda_prodotto{
+    
+}
+
+.nav_bar_footer{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+.selettore_footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titoletti_footer{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
